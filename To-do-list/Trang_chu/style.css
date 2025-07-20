@@ -1,4 +1,3 @@
-/* Reset một số mặc định trình duyệt */
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +6,21 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
   padding: 40px;
+  margin: 0;
+  min-height: 100vh;
+
   display: flex;
   justify-content: center;
-  background-image: url("/To-do-list/image/meogion.jpg");
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #f0f2f5;
+  background-image: url("/To-do-list/image/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 
 #container {
@@ -32,7 +38,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Bảng */
 #usertable {
   width: 100%;
   border-collapse: collapse;
@@ -44,7 +49,6 @@ h1 {
   border-bottom: 1px solid #ddd;
 }
 
-/* Ô input */
 input[type="text"] {
   width: 100%;
   padding: 8px 10px;
@@ -58,7 +62,6 @@ input[type="text"]:focus {
   border-color: #007bff;
 }
 
-/* Nút Xóa */
 button {
   padding: 6px 12px;
   border: none;
@@ -74,14 +77,12 @@ button:focus {
   outline: none;
 }
 
-/* Nút X màu đỏ */
 td button {
   color: red;
   font-weight: bold;
   font-size: 16px;
 }
 
-/* Nút thêm dòng */
 #add {
   display: block;
   margin: 0 auto;
