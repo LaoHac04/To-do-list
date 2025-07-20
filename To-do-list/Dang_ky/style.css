@@ -1,0 +1,73 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logup_container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  background-attachment: fixed;
+}
+
+#logup_box {
+  background-color: antiquewhite;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 320px;
+  margin: auto;
+}
+
+#logup_box h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#logup_box label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+#logup_box input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#logup_box button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logup_box button:hover {
+  background-color: blue;
+}
+
+#logup_box .login_link {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#logup_box .login_link:hover {
+  color: red;
+}
+
+#logup_box #exists {
+  color: red;
+  margin-top: -5px;
+  font-style: italic;
+  visibility: hidden;
+}

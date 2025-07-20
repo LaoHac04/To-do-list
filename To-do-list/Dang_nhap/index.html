@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dang_nhap</title>
+  </head>
+  <body>
+    <div class="login_container">
+      <form id="login_box">
+        <h1>Đăng nhập</h1>
+        <label for="username">Nhập tên đăng nhập:</label>
+        <input type="text" id="username" required />
+        <label for="password">Mật khẩu:</label>
+        <input type="text" id="password" required />
+        <button type="submit">Đăng nhập</button>
+        <p class="logup_link">
+          Bạn chưa có tài khoản?
+          <a href="/To-do-list/Dang_ky/index.html">Đăng ký</a>
+        </p>
+        <p id="exists" style="visibility: hidden">
+          Tên đăng nhập chưa tồn tại.
+        </p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
